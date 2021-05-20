@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wakeboard Demos</title>
+</head>
+<body>
+    <nav style="text-align: right;">
+        <a href="../HTMLRecap/index.html">Home</a>
+        <a href="../HTMLRecap/index.html">Products</a>
+        <a href="../HTMLRecap/index.html">Forums</a>
+    </nav>
+    <div>
+        <h1 style= "text-align:center; color: red">Wakeboard Demo Form</h1>
+        <p style= "text-align:center">Fill out the following form in order to request a demo on any of our 1000's of in-stock boards and bindings</p>
+
+        <br />
+
+        <div style="border: solid; border-width: thick; background-color: rgb(165, 164, 164);">
+            <form>
+                <h2 style="text-align:center;">Lets get you on the water in style</h2>
+                <fieldset>
+                    <legend>Know exactly what you are looking for in a board?</legend>
+                    <p>
+                        <label>
+                            Wakeboard Item Number:
+                            <input type="number" />
+                        </label> 
+                    </p>
+                    <p>
+                        <label>
+                            Bindings Item Number:
+                            <input type="number" />
+                        </label>
+                    </p>
+                    <p>
+                        <button type="submit">Submit Request</button>
+                    </p> 
+                </fieldset>
+                <fieldset>
+                    <legend>Need some help deciding?</legend>
+                    <section>
+                        <p>Skill Level</p>
+                        <p>
+                            <input type="radio" name="skill" id="beginner" value="beginner" />
+                            <label for="beginner">Beginner</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="skill" id="intermediate" value="intermediate" />
+                            <label for="intermediate">Intermediate</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="skill" id="advanced" value="advanced" />
+                            <label for="advanced">Advanced</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="skill" id="professional" value="professional" />
+                            <label for="professional">Professional</label>
+                        </p>
+                    </section>
+
+                    <section>
+                        <p>Riding Style (check all that apply)</p>
+                        <p>
+                            <input type="checkbox" name="style" id="boat" value="boat" />
+                            <label for="boat">Boat</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="style" id="park" value="park" />
+                            <label for="park">Park</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="style" id="mellow" value="mellow" />
+                            <label for="mellow">Mellow</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="style" id="aggressive" value="aggressive" />
+                            <label for="aggressive">Aggressive</label>
+                        </p>
+                    </section>
+
+                    <section>
+                        <p>Height and Weight</p>
+                        <p>
+                            <label>
+                                Height(in): <input type="number" />
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                Weight(lbs): <input type="number" />
+                            </label>
+                        </p>
+                    </section>
+                    <p>
+                        <button type="submit">Submit Request</button>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
